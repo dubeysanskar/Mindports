@@ -1,131 +1,171 @@
-# EduPath AI 🎓
+Absolutely! Here's the final version of your README.md for Mindports, ready to be copied and pasted directly into your project:
 
-EduPath AI is an intelligent learning platform designed to provide personalized programming education through AI-powered tutoring and interactive learning experiences.
+markdown
+# 🧠 Mindports – Your Personalized Knowledge Intelligence Hub
 
-## Problem Statement
+Mindports is a context-aware digital memory vault that transforms scattered content into personalized knowledge using intelligent AI modules. It helps you capture, process, and recall web content, videos, documents, and media—just like your second brain.
 
-Traditional programming education often follows a one-size-fits-all approach, which can be ineffective for learners with different backgrounds, learning styles, and goals. Students often struggle with:
-- Finding the right learning path based on their current knowledge level
-- Getting immediate feedback and guidance when stuck
-- Maintaining motivation through consistent engagement
-- Preparing for technical interviews and assessments
+---
 
-## Solution
+## 🚨 Problem Statement
 
-EduPath AI addresses these challenges by providing:
-- Personalized learning paths adapted to each student's background and goals
-- Real-time AI tutoring with contextual feedback
-- Interactive coding environments for hands-on practice
-- Mock technical interviews with AI-powered feedback
+In the information age, users struggle with:
 
-## Key Features
+- Content overload from multiple platforms
+- Inefficient bookmarking and scattered archives
+- No contextual recall or emotional assistance
+- Repeated searches for previously seen material
+- Lack of personalized knowledge systems
 
-### 🎯 Personalized Learning
-- Custom study plans based on student's:
-  - Programming experience
-  - Current knowledge level
-  - Available study time
-  - Learning goals
-  - Preferred learning style
+---
 
-### 🤖 AI-Powered Tutoring
-- Real-time assistance with programming concepts
-- Contextual explanations and examples
-- Progressive difficulty adjustment
-- Immediate doubt resolution
+## ✅ Our Solution
 
+Mindports converts your digital interactions into structured memory using AI. From saving a reel to summarizing Reddit, it captures your intent and converts it into actionable intelligence:
 
-### 🤖 Custom Course generator
-- Do hands on practice while going through the course
-- video recommendation, article recommendation, short notes, summary and quiz practice
-- Do hands on practice while going through the course
-- Gain certification, skill points and rise in leaderboard on completing course
-  
-### 💻 Interactive Learning Environment
-- Built-in code editor for hands-on practice
-- Real-time code execution and feedback
-- Support for multiple programming languages
-- Syntax highlighting and error detection
+- Save and organize content from anywhere
+- Contextual recall through AI assistants
+- Emotional guidance and productivity nudges
+- Domain-specific bots trained on your interests
+- Exportable AI memory graphs and toolkits
 
-### 🎤 Mock Technical Interviews
-- AI-driven interview simulations
-- Real-world programming scenarios
-- Instant feedback on responses
-- Performance analytics and improvement suggestions
+---
 
-## Technology Stack
+## 🔑 Key Features
 
-- **Frontend**: React with TypeScript
-- **Styling**: Tailwind CSS
-- **Build Tool**: Vite
-- **AI Integration**: Google's Gemini Pro API
-- **Authentication**: Local storage (with plans for secure auth integration)
+### 🔖 Save the Archive
+AI-powered Web Clipper to save and categorize articles, PDFs, reels, shorts, tweets, and links. Transcribes video/audio via MCP and summarizes them for your knowledge vault.
 
-## Getting Started
+### 🧠 Second Brain + API
+Context-aware personal assistant trained on your saved content. Enables long-term memory, contextual tool recall, advanced querying, and exports knowledge graphs for team or solo use.
+
+### 🤖 AI Companion Mode + Mood Curation
+Emotion-aware chatbot that mirrors your tone and mood. Recommends playlists, motivational nudges, and curated growth content based on productivity state (focus, burnout, learning).
+
+### 🧵 Twitter Thread Analyzer
+Crawls tech creator threads, summarizes model/tool updates, and delivers a daily dev digest.
+
+### 🔍 Reddit Crawler
+Scans selected subreddits (e.g., r/AI, r/learnprogramming), summarizes top content, and feeds it into your personalized dashboard.
+
+### ⏰ Update Alarm
+Trigger-based notifier that sends push digests from Twitter, Reddit, and Medium using creator handles and tags.
+
+### 💬 Topic-Specific AI Chatbot
+A focused chatbot trained only on your followed domains and creators. Returns high-signal results without generic LLM noise.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer            | Tech Stack                                             |
+|------------------|--------------------------------------------------------|
+| Frontend         | React + Tailwind CSS + ShadCN UI                       |
+| State Management | Zustand                                                |
+| Backend          | Node.js + Express                                      |
+| AI/LLM           | Gemini Pro API                                         |
+| Database         | Supabase (PostgreSQL + Supabase Auth)                 |
+| Vector Store     | ChromaDB                                               |
+| Media Handling   | MCP (for transcription)                                |
+| NLP/NLU          | HuggingFace Transformers + Summarization Pipelines     |
+| Deployment       | Vercel (Frontend) + Railway (Backend)                 |
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm (v9 or higher)
+
+- Node.js v18+
+- npm v9+
+- Supabase account
+- Gemini API Key
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/edupath-ai.git
-cd edupath-ai
+git clone https://github.com/dubeysanskar/Mindports.git
+cd Mindports
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
-3. Create a `.env` file in the root directory and add your Gemini API key:
+3. Add environment variables in a .env file:
+
 ```env
-VITE_GEMINI_API_KEY=your_api_key_here
+VITE_GEMINI_API_KEY=your_gemini_api_key
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_anon_key
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+Visit: http://localhost:5173
 
-## Available Scripts
+---
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+## 📦 Scripts
 
-## Contributing
+- npm run dev – Start development server
+- npm run build – Build production bundle
+- npm run preview – Preview production build
+- npm run lint – Run linter
 
-We welcome contributions! Please follow these steps:
+---
+
+## 💡 Future Roadmap
+
+- [ ] Browser Extension for Quick Save
+- [ ] Mobile App Companion
+- [ ] Audio Summary Download
+- [ ] Visual Knowledge Map Builder
+- [ ] Chrome Context Integration
+- [ ] DSA/Tech Study Dashboard with Leaderboards
+
+---
+
+## 💼 Use Cases
+
+- Personalized Study Companion
+- Focus-based Productivity Assistant
+- AI-Powered Second Brain for Devs
+- Domain-Specific News Summarizer
+- Knowledge Management for Teams
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions!
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Future Roadmap
+---
 
-- [ ] Integration with secure authentication service
-- [ ] Additional programming language support
-- [ ] Code challenge repository
-- [ ] Progress tracking and analytics
-- [ ] Collaborative learning features
-- [ ] Mobile application
+## 📄 License
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Project Link: [https://github.com/yourusername/edupath-ai](https://github.com/yourusername/edupath-ai)
+This project is licensed under the MIT License – see the LICENSE file for details.
 
 ---
 
-Made with ❤️ by EduPath AI Team
+## 🔗 Project Links
+
+GitHub Repo: https://github.com/dubeysanskar/Mindports/
+
+Made with ❤️ by Sanskar Dubey
+
+Let me know if you'd like a version with a banner or live demo section too!
